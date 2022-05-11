@@ -88,6 +88,9 @@ body{
 .fa-brands{
   color: white;
 }
+.fa-brands:hover{
+  color: grey;
+}
 @media(max-width: 1028px){
   #title{
     text-align: center;
