@@ -35,7 +35,7 @@ body{
 }
 .feedback{
   font-size: 3rem;
-  padding: 110px 90px 110px 170px;
+  padding: 9% 10%;
   font-weight: bolder;
 }
 .row{
@@ -43,7 +43,7 @@ body{
 }
 .quote{
   font-size: 2.5rem;
-  margin:  150px 100px 100px;
+  margin:  6% 5% ;
   text-align: center;
   font-weight: bold;
 }
@@ -83,8 +83,29 @@ body{
   text-align: center;
 }
 .row-social{
-  margin: 50px 700px;
+  margin: 3% 40%;
 }
 .fa-brands{
   color: white;
+}
+@media(max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  
+  .form{
+    align-items: center;
+    margin: auto;
+  }
+  .footer{
+    align-items: center;
+    margin: auto;
+  }
+  
+}
+
+@media(max-width: 100%){
+  .feedback{
+    margin: 5% 6%;
+  }
 }
